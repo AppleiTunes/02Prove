@@ -7,7 +7,7 @@ data = iris.data
 target = iris.target
 target_names = iris.target_names
 
-data_train, data_test, targets_train, targets_test = train_test_split(data, target, test_size = 0.3)
+data_train, data_test, targets_train, targets_test = train_test_split(data, target, test_size = 0.3, shuffle=True)
 
 
 """ Built classifier """
